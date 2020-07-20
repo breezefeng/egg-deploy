@@ -32,6 +32,23 @@ $ npm i @vivo/egg-deploy --save
     }
     ```
 
+finally `.deploy.yml` like this, Example:
+
+```yaml
+instances:
+ - 
+  port: 7005
+  title: egg-server-weekly-node-ts-2
+ - 
+  port: 7006
+  title: egg-server-weekly-node-ts
+nginxConfPath: /etc/nginx/upstream/weekly.conf
+startCommand: service nginx start
+reloadCommand: nginx -s reload
+nginxConfPath: nginx.conf
+waitStopTime: 5000
+```
+
 #### 2. add `egg-deploy` to `package.json` to scripts
 
 ```json
