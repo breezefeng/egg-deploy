@@ -1,0 +1,24 @@
+{
+  "name": "egg-deploy",
+  "version": "1.0.0",
+  "description": "hot-reload egg.js application",
+  "main": "index.js",
+  "bin": {
+    "egg-deploy": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/breezefeng/egg-deploy.git"
+  },
+  "keywords": [
+    "deploy"
+  ],
+  "author": "breezefeng",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "js-yaml": "^3.14.0",
+    "nginx-upstream": "^0.1.4",
+    "shelljs": "^0.8.4"
+  }
+}
