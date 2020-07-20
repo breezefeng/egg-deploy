@@ -13,6 +13,9 @@
   "keywords": [
     "deploy"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "breezefeng",
   "license": "ISC",
   "dependencies": {
