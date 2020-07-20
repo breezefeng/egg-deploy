@@ -1,5 +1,5 @@
 {
-  "name": "egg-deploy",
+  "name": "egg-hot-deploy",
   "version": "1.0.0",
   "description": "hot-reload egg.js application",
   "main": "index.js",
