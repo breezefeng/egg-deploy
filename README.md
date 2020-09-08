@@ -5,7 +5,7 @@ hot-deploy tool for egg project
 ## Install
 
 ```bash
-$ npm i @vivo/egg-deploy --save
+$ npm i egg-hot-deploy --save
 ```
 
 ## Usage
