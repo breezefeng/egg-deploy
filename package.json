@@ -1,6 +1,6 @@
 {
   "name": "egg-hot-deploy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hot-reload egg.js application",
   "main": "index.js",
   "bin": {
